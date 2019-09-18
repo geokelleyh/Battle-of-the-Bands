@@ -2,17 +2,23 @@
 
 // Your job is to write a function that accepts any band name as an argument. The function will increment a global variable by one each time it is invoked, and return that number, and the band name concatenated together.
 
-
-
+let bandNumber = 0;
+console.log(bandNumber)
 const takeNumber = function (bandName) {
-    
-    for (let bandNumber = 1; bandNumber++;){
+ 
+    for ( bandNumber; bandNumber++;){
         return bandName;
+       
     }
 }
 
+
+
 const scum = takeNumber("Galactic Scum")
-console.log(scum)  // This should print "1. Galactic Scum" in the console
+ // This should print "1. Galactic Scum" in the console
+
+console.log(bandNumber,scum)
 
 const under = takeNumber("Underdogs")
-console.log(under)  // This should print "2. Underdogs" in the console
+ // This should print "2. Underdogs" in the console
+console.log(bandNumber,under)
