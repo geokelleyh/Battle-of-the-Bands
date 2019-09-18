@@ -2,7 +2,7 @@
 
 // Your job is to write a function that accepts any band name as an argument. The function will increment a global variable by one each time it is invoked, and return that number, and the band name concatenated together.
 
-let bandNumber = 0;
+let bandNumber = 1;
 console.log(bandNumber)
 const takeNumber = function (bandName) {
  
