@@ -17,8 +17,8 @@ const takeNumber = function (bandName) {
 const scum = takeNumber("Galactic Scum")
  // This should print "1. Galactic Scum" in the console
 
-console.log(bandNumber,scum)
+console.log(bandNumber + ". "+ scum)
 
 const under = takeNumber("Underdogs")
  // This should print "2. Underdogs" in the console
-console.log(bandNumber,under)
+console.log(bandNumber + ". "+ under)  
